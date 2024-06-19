@@ -7,6 +7,7 @@ public class KmToMiles {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enetr the Kilometter :");
         int km = sc.nextInt();
+        sc.close();
 
         float result = km * 0.621371f;
 

@@ -9,6 +9,7 @@ public class FirstCode {
         int a = sc.nextInt();
         System.out.println("Enter number 2");
         int b = sc.nextInt();
+        sc.close();
 
         int sum = a + b;
         System.out.println("The sum is :");
