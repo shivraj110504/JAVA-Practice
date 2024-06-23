@@ -7,7 +7,7 @@ public class Operation {
         Scanner sc= new Scanner(System.in);
         System.out.println("Enter the string :");
         String str = sc.nextLine();
-        str = str.toLowerCase();
+       str = str.replace(" ", "_");
         sc.close();
         System.out.println(str);
     }
